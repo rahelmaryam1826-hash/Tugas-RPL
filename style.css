@@ -1,0 +1,71 @@
+/* Mengatur seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #FFF8E7;
+}
+
+/* Grouping Selector */
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+    color: #1F4E79;
+}
+
+/* Mengatur judul halaman */
+h1 {
+    text-align: center;
+}
+
+/* Mengatur navigasi */
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Descendant Selector */
+nav a {
+    text-decoration: none;
+    color: #1F4E79;
+    font-weight: bold;
+    margin: 10px;
+    padding: 8px;
+}
+
+/* Pseudo-class :hover */
+nav a:hover {
+    color: white;
+    background-color: #1F4E79;
+}
+
+/* Mengatur bagian menu */
+.menu {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/* Mengatur paragraf menu */
+.menu p {
+    font-size: 16px;
+    color: #333333;
+}
+
+/* Mengatur tombol */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: rgb(31, 78, 121);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover menggunakan rgba */
+button:hover {
+    background-color: rgba(31, 78, 121, 0.8);
+}
